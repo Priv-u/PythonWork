@@ -25,3 +25,22 @@ print("")
 listForPrint = ["мой", "дядя", "самых", "честных", "правил"]
 for word in listForPrint:
     print(word + ", ", end="")
+print("")
+
+grid = [
+    [".", ".", ".", ".", ".", "."],
+    [".", "O", "O", ".", ".", "."],
+    ["O", "O", "O", "O", ".", "."],
+    ["O", "O", "O", "O", "O", "."],
+    [".", "O", "O", "O", "O", "O"],
+    ["O", "O", "O", "O", "O", "."],
+    ["O", "O", "O", "O", ".", "."],
+    [".", "O", "O", ".", ".", "."],
+    [".", ".", ".", ".", ".", "."],
+]
+print()
+for n in range(0, len(grid[0])):
+    for i in range(0, len(grid)):
+        print(grid[i][n], end="")
+    print()
+print()
