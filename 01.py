@@ -22,7 +22,7 @@ print("")
 # for i in range(1, 10):
 #     print(randint(1, 100))
 
-listForPrint = ["мой", "дядя", "самых", "честных", "правил"]
+listForPrint = ["И", "вновь", "продолжается", "бой"]
 for word in listForPrint:
     print(word + ", ", end="")
 print("")
@@ -44,3 +44,8 @@ for n in range(0, len(grid[0])):
         print(grid[i][n], end="")
     print()
 print()
+
+# Словари
+newDict = {"номер": 1, "Площадь": 6, "Ед.Изм.": "кв.м"}
+for k, v in newDict.items():
+    print(str(k) + " - " + str(v))
