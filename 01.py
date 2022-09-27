@@ -44,4 +44,3 @@ for n in range(0, len(grid[0])):
         print(grid[i][n], end="")
     print()
 print()
-print()
